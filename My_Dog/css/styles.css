@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    /* background-color: #FAE6CB; */
+    color: #202124;
+}
+   
+.jumbo-img{
+    width: 100%;
+    height: 100px;
+    background-image: url('../images/banner2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card {
+    background-color: #FAE6CB;
+    border: 1px solid rgb(229, 129, 33);;
+}
+@media (min-width: 371px) {
+    .jumbo-img{
+        height: 150px;
+    }
+}
+
+@media (min-width: 768px) {
+    .jumbo-img{
+        height: 250px;
+    }
+}
+
+@media (min-width: 992px) {
+    .jumbo-img{
+        height: 350px;
+    }
+}
